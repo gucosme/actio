@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint \"**/*.ts*\"",
-    "generate:component": "turbo gen react-component"
+    "generate:component": "turbo gen react-component",
+    "ui:add": "pnpm dlx shadcn-ui@latest add"
   },
   "devDependencies": {
     "@types/react": "^18.2.0",
@@ -16,5 +17,12 @@
     "react": "^17.0.2",
     "tsconfig": "workspace:*",
     "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.6.1",
+    "clsx": "^1.2.1",
+    "lucide-react": "^0.258.0",
+    "tailwind-merge": "^1.13.2",
+    "tailwindcss-animate": "^1.0.6"
   }
 }
